@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity" android:id="@+id/rl">
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentTop="true" android:layout_toLeftOf="@+id/lbt_layout"
+            android:layout_toStartOf="@+id/lbt_layout" android:layout_marginTop="10dp" android:id="@+id/rms_layout"
+            android:onClick="onStallmanClick">
+        <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:id="@+id/rms_image" android:src="@drawable/rms"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:contentDescription="@string/rms_image_description" android:clickable="true"
+                android:onClick="onImageClick"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/rms_name"
+                android:id="@+id/rms_name" android:layout_below="@+id/rms_image" android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+            android:id="@+id/lbt_layout" android:layout_marginTop="10dp" android:onClick="onTorvaldsClick">
+        <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:id="@+id/lbt_image" android:src="@drawable/lbt"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:contentDescription="@string/lbt_image_description" android:clickable="true"
+                android:onClick="onImageClick"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/lbt_name"
+                android:id="@+id/lbt_name" android:layout_below="@+id/lbt_image" android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true" android:layout_toRightOf="@+id/lbt_layout"
+            android:layout_toEndOf="@+id/lbt_layout" android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp" android:id="@+id/dmr_layout" android:onClick="onRitchieClick">
+        <ImageView
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:id="@+id/dmr_image" android:src="@drawable/dmr"
+                android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+                android:contentDescription="@string/dmr_image_description" android:clickable="true"
+                android:onClick="onImageClick"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/dmr_name"
+                android:id="@+id/dmr_name" android:layout_below="@+id/dmr_image" android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+    </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/hint"
+            android:id="@+id/hint" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+            android:textSize="12sp"/>
+</RelativeLayout>

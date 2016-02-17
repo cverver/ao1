@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Really Important IT Persons</string>
+    <string name="hint">Tap the image to enlarge - Tap the name to see details</string>
+    <string name="action_open_wiki">Wikipedia</string>
+    <string name="action_open_github">Github</string>
+
+    <string name="rms_name">Richard M. Stallman</string>
+    <string name="rms_firstname">Richard</string>
+    <string name="rms_middlename">Matthew</string>
+    <string name="rms_lastname">Stallman</string>
+    <string name="rms_dobd">*16/3/1953</string>
+    <string name="rms_image_description">Portret image of Richard Matthew Stallman</string>
+    <string name="rms_description">Richard Matthew Stallman is the president of the Free Software Foundation (FSF),
+        developer of the GNU operating system, developer of the GNU Compiler Collection (GCC), developer of Emacs
+        (advanced text editor), and symbol for open source software.
+    </string>
+
+    <string name="lbt_name">Linus B. Torvalds</string>
+    <string name="lbt_firstname">Linus</string>
+    <string name="lbt_middlename">Benedict</string>
+    <string name="lbt_lastname">Torvalds</string>
+    <string name="lbt_dobd">*28/12/1969</string>
+    <string name="lbt_image_description">Portret image of Linus Benedict Torvalds</string>
+    <string name="lbt_description">Linus Benedict Torvalds is the developer of the Linux kernel ("just a hobby" he said)
+        and the developer of the Git version control system.\nThe operating system i am currently using uses the kernel
+        he made.
+    </string>
+
+    <string name="dmr_name">Dennis M. Ritchie</string>
+    <string name="dmr_firstname">Dennis</string>
+    <string name="dmr_middlename">MacAlistair</string>
+    <string name="dmr_lastname">Ritchie</string>
+    <string name="dmr_dobd">*9/9/1941 †12/10/2011</string>
+    <string name="dmr_image_description">Portret image of Dennis MacAlistair Ritchie</string>
+    <string name="dmr_description">Dennis MacAlistair Ritchie is the creator of the C programming language and the UNIX
+        operating system, both are very important to the development of computers.\nHe passed away in 2011.
+    </string>
+</resources>
