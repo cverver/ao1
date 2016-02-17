@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.action_open_github) {
-            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/gux13x54/ao1"));
+            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/cverver/ao1"));
             startActivity(i);
             return true;
         }
